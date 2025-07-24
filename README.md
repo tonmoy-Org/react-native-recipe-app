@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+![Recipe App Bannert](./assets/images/screenshot-for-readme.png)
 
-1. Install dependencies
+A beautiful recipe discovery app with authentication, search, and video tutorials - built with **React Native** and **Clerk**.
 
-   ```bash
-   npm install
-   ```
+![Expo](https://img.shields.io/badge/Expo-ReactNative-blue)
+![Clerk](https://img.shields.io/badge/Auth-Clerk-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🔐 Key Features
 
-In the output, you'll find options to open the app in a
+### Authentication
+- **Secure Signup & Login** using Clerk
+- **6-Digit Email Verification** for account security
+- **Profile Management** to view account details
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Recipe Discovery
+- **🍳 Browse Featured Recipes** on the home screen
+- **🔍 Search Recipes** by name or ingredients
+- **📁 Filter by Categories** like vegetarian, desserts, etc.
+- **🎥 Video Tutorials** embedded from YouTube
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Recipe Details
+- **📝 Step-by-Step Cooking Instructions**
+- **⏱️ Prep Time & Serving Size** info
+- **📋 Ingredient Lists** with measurements
+- **🎬 Embedded YouTube Videos** for visual learning
 
-## Get a fresh project
+### Customization
+- **🌈 8 Color Themes** to match your mood
+- **🌙 Dark/Light Mode** support
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠️ Technologies Used
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **Frontend**: React Native (Expo)
+- **Authentication**: Clerk
+- **Recipe API**: TheMealDB API
+- **Styling**: React Native `StyleSheet` with dynamic theming
+- **Video**: React Native WebView for YouTube embeds
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🆓 Free & Open
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This app uses 100% free services:
+- Clerk free tier for authentication
+- TheMealDB free API for recipes
+- No paid dependencies
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🚀 Getting Started
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Prerequisites
+
+- Node.js >= 16
+- Expo CLI:  
+  ```bash
+  npm install -g expo-cli
