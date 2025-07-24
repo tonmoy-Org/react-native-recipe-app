@@ -29,10 +29,6 @@ A beautiful recipe discovery app with authentication, search, and video tutorial
 - **📋 Ingredient Lists** with measurements
 - **🎬 Embedded YouTube Videos** for visual learning
 
-### Customization
-- **🌈 8 Color Themes** to match your mood
-- **🌙 Dark/Light Mode** support
-
 ---
 
 ## 🛠️ Technologies Used
